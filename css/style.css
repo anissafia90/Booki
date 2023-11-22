@@ -416,7 +416,7 @@ a {
         flex-direction:column;
      }
      .populaires-cards .card{
-        width: 340px;
+        width: 200px;
      }
      .hebergements-cards{
         flex-direction:column;
@@ -427,7 +427,7 @@ a {
 
      }
      .hebergements-cards .card{
-        width: 300px;
+        width: 200px;
      }
      .Activites-cards{
         flex-direction: column;
@@ -439,4 +439,9 @@ a {
         flex-direction: column;
         justify-content: center;
      }
+     nav ul li a:hover {
+        border-bottom: 2px solid var(--main-color) ;
+        cursor: pointer;
+        padding-bottom: 20%;
+    }
 }
